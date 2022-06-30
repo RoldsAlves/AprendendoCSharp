@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-OlaMundo", "1-OlaMundo\1-OlaMundo.csproj", "{7A05CFE0-6499-4555-8A82-F81E33347467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-CriandoVariaveis", "2-CriandoVariaveis\2-CriandoVariaveis.csproj", "{19B5268E-39E5-4ADE-B634-C4A70CE6981A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-CriandoVariaveis", "2-CriandoVariaveis\2-CriandoVariaveis.csproj", "{19B5268E-39E5-4ADE-B634-C4A70CE6981A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-PontosFlutuantes", "3-PontosFlutuantes\3-PontosFlutuantes.csproj", "{A61583C8-13ED-49CD-8870-5757EF55C762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-PontosFlutuantes", "3-PontosFlutuantes\3-PontosFlutuantes.csproj", "{A61583C8-13ED-49CD-8870-5757EF55C762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ConversoesEOutrosTipos", "4-ConversoesEOutrosTipos\4-ConversoesEOutrosTipos.csproj", "{CB7CF38F-D45E-4DD2-B7F3-83F15F87FC40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-ConversoesEOutrosTipos", "4-ConversoesEOutrosTipos\4-ConversoesEOutrosTipos.csproj", "{CB7CF38F-D45E-4DD2-B7F3-83F15F87FC40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-CaracteresETexto", "5-CaracteresETexto\5-CaracteresETexto.csproj", "{4F156BF2-0965-4433-86E0-419AD3B2A837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-AtribuicoesDeVariaveis", "6-AtribuicoesDeVariaveis\6-AtribuicoesDeVariaveis.csproj", "{ED4EA95A-55F7-4B91-A055-15B7E47F552E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{CB7CF38F-D45E-4DD2-B7F3-83F15F87FC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB7CF38F-D45E-4DD2-B7F3-83F15F87FC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB7CF38F-D45E-4DD2-B7F3-83F15F87FC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F156BF2-0965-4433-86E0-419AD3B2A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F156BF2-0965-4433-86E0-419AD3B2A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F156BF2-0965-4433-86E0-419AD3B2A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F156BF2-0965-4433-86E0-419AD3B2A837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4EA95A-55F7-4B91-A055-15B7E47F552E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4EA95A-55F7-4B91-A055-15B7E47F552E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4EA95A-55F7-4B91-A055-15B7E47F552E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4EA95A-55F7-4B91-A055-15B7E47F552E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
