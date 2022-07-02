@@ -13,25 +13,32 @@ namespace ImpostoDeRenda
             int dependentes = Convert.ToInt32(Console.ReadLine());
             double descontoINSS = DescontoINSS(salario);
             salario = salario - descontoINSS - (dependentes * 189.59);
+            string texto = CalcularIRPF(salario);
+            Console.WriteLine(texto);
+            Console.ReadLine();
+        }
+
+        private static string CalcularIRPF(double salario)
+        {
             double aliquataIR;
             double impostoAPagar;
-            string texto;
-            if(salario > 4664.68)
+
+            if (salario > 4664.68)
             {
                 aliquataIR = 27.5;
                 impostoAPagar = (salario * 0.275) - 869.36;
             }
-            else if(salario > 3751.05)
+            else if (salario > 3751.05)
             {
                 aliquataIR = 22.5;
                 impostoAPagar = (salario * 0.225) - 636.13;
             }
-            else if(salario > 2826.65)
+            else if (salario > 2826.65)
             {
                 aliquataIR = 15;
                 impostoAPagar = (salario * 0.15) - 354.8;
             }
-            else if(salario > 1903.98)
+            else if (salario > 1903.98)
             {
                 aliquataIR = 7.5;
                 impostoAPagar = (salario * 0.075) - 142.8;
@@ -41,12 +48,10 @@ namespace ImpostoDeRenda
                 aliquataIR = 0.0;
                 impostoAPagar = 0.0;
             }
+             
+            return "Sua alíquota de Imposto de Renda é " + aliquataIR + "% e o imposto devido é R$ " + Math.Round(impostoAPagar, 2);
 
-            texto = "Sua alíquota de Imposto de Renda é " + aliquataIR + "% e o imposto devido é R$ " + Math.Round(impostoAPagar, 2);
-            Console.WriteLine(texto);
-            Console.ReadLine();
         }
-
         private static double DescontoINSS(double salario)
         {
             double desconto;

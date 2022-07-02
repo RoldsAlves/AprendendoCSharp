@@ -6,7 +6,7 @@ namespace _9_Escopo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Projeto 8 - Trabalhando com Condicionais.");
+            Console.WriteLine("Projeto 9 - Escopo.");
             int idadeJoao = 16;
             int quantidadePessoas = 3;
             bool acompanhado = quantidadePessoas >= 2;

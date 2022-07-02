@@ -10,7 +10,7 @@ namespace _8_Condicionais2
             int idadeJoao = 16;
             int quantidadePessoas = 3;
             bool acompanhado = quantidadePessoas >= 2;
-            bool grupo = false;
+            //bool grupo = false;
 
             if (idadeJoao >= 18 || acompanhado)
             {
